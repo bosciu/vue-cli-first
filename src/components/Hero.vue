@@ -10,12 +10,16 @@
 				Cosa aspetti? Approfondisci subito!
 			</p>
 		</div>
+		<Button linkDestinazione="https://www.google.it" msg="Clicca qui!" />
 		<img src="../assets/components.png" alt="" />
 	</div>
 </template>
 
 <script>
+import Button from "./Button";
+
 export default {
+	components: { Button },
 	name: "Hero"
 };
 </script>
