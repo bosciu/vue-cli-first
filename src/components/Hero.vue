@@ -9,8 +9,11 @@
 				<br />
 				Cosa aspetti? Approfondisci subito!
 			</p>
+			<Button
+				linkDestinazione="https://vuejs.org/v2/guide/components.html"
+				msg="Clicca qui!"
+			/>
 		</div>
-		<Button linkDestinazione="https://www.google.it" msg="Clicca qui!" />
 		<img src="../assets/components.png" alt="" />
 	</div>
 </template>
